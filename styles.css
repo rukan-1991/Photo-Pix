@@ -391,6 +391,7 @@ header {
 .gallary-image {
     width: 22rem;
     border: 1rem solid var(--color-bg-4);
+    overflow: hidden;
 }
 
 .gallary-image img {
@@ -400,6 +401,7 @@ header {
 
 .gallary-image:hover img {
     filter: saturate(1) brightness(1);
+    transform: scale(1.14);
 }
 
 /*=================================PHOTO COLLAGE=================================*/
